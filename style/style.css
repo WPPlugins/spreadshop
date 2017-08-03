@@ -1,0 +1,175 @@
+iframe{max-width: none !important;}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+.spreadShopAdminWrapper h1,h2{  font-family: 'Montserrat', sans-serif;font-size: 28px; }
+
+.spreadShopAdminWrapper{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    width:100%;
+    height: 100vh;
+    min-width: 650px;
+    min-height: 600px;
+}
+
+.settingsContainer{
+    background-color: #fff;
+    margin:0 auto;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+}
+
+.settingsContainer .left{
+    background-image: url("images/hero_image_desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    background-position-x: -250px;
+    max-width: 760px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.settingsContainer .right{
+    width: 50%;height: 100%;
+    min-width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top:50px;
+    text-align: center;
+    position: relative;
+    transform: translateY(10%);
+}
+
+
+.pluginHeadline{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+    max-width: 50%;
+    min-width: 200px;
+}
+#spreadShopSettingsEdit {
+    min-height: 30%;
+    display: none;
+    text-align: right;
+    padding: 5%;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    top: 0px;
+    position: absolute;
+    margin: 0 auto;
+    box-shadow: 2px 2px 30px -10px;
+    left: 5%;
+    margin: 20px;}
+
+.btn-edit{
+    height: 0px;
+    transition: visibility 0.5s ease;
+    display: none; font-size: 100px   ;  background-color: white;
+    cursor: pointer;
+    position: relative;
+    top: 3vH;
+    font-size: 50px;
+    position: relative;
+    top: -80px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto
+}
+.editable:hover .btn-edit{display: block}
+.dashicons-edit:before {
+}
+
+.button-primary,.btn-primary {
+    margin: 0 auto;
+    color: #fff;
+    background-color: #00b7a5 !important;
+    border-color: #009887 !important;
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 6px 12px;
+    text-decoration: none;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button-primary:hover,.btn-primary:hover {
+    color: #fff;
+    background-color: #1ed0c3 !important;
+    border-color: #11b0a4 !important; }
+
+.shopInfoContainer{
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shopInfoContainer h2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.settingsContainer .submit{
+    text-align: center;
+}
+
+.shopSettingsContainer{
+    text-align: left;
+    margin: 0 auto ;
+    margin-top: 25px;
+
+}
+
+.shopSettingsContainer td{ text-align: right}
+
+
+.btn-editz {
+    margin: 0 auto;
+    color: #fff;
+    background-color: #00b7a5 !important;
+    border-color: #009887 !important;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 6px 12px;
+    text-decoration: none;
+    max-width: 200px;
+    text-align: center;
+    content:"sdfsdf"
+}
